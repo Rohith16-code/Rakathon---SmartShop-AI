@@ -1,18 +1,44 @@
 {
-  "name": "shopping-assistant",
-  "version": "1.0.0",
-  "description": "- **[About](#about)**\r - **[Features](#features)**\r - **[Instructions for running locally](#Instructions-for-running-locally)**\r    - **[Initial steps](#initial-steps)**\r    - **[Method I (Using docker) [Recommended]](#method-i-using-docker-recommended)**\r    - **[Method II (Without docker)](#method-ii-without-docker)**\r - **[Demo video](#demo-video)**\r - **[Screenshots](#screenshots)**\r - **[Tech Stack](#tech-stack)**   \r - **[File Structure](#file-structure)**\r ## About\r Shopping Assistant is a chatbot, which can assist consumers in deciding the right product and bridge the gap between online and offline shopping.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "web-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "axios": "^1.7.5",
-    "bootstrap": "^5.3.3",
-    "google-translate": "^2.2.0",
-    "react-bootstrap": "^2.10.4",
-    "react-router-dom": "^6.26.1"
-  }
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "jeelizvtowidget": "^2.1.0",
+    "react": "^17.0.2",
+    "react-chat-widget": "^3.0.5",
+    "react-dom": "^17.0.2",
+    "react-grid-gallery": "^0.5.5",
+    "react-images-upload": "^1.2.8",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "reactour": "^1.18.4",
+    "styled-components": "^5.3.0",
+    "google-translate": "^1.0.0",
+    "axios": "^1.7.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8000"
 }
