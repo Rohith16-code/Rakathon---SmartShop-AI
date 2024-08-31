@@ -57,24 +57,7 @@ uvicorn main:app
 
 4. The server would run at http://127.0.0.1:8000/ and the API documentation would be available at http://127.0.0.1:8000/docs
 
-### Running the Web App
 
-1. Make sure you have node installed with version >= 14. Check using following command:
-
-
-node -v
-
-
-2. In the web-app folder, install all the dependencies using the following command:
-
-
-cd services/web-app
-npm install
-
-
-3. In the web-app folder, run the React App using:
-
-
-npm start
+Youtube demo link : https://youtu.be/PnGEnGcdink
 
 
