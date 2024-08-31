@@ -1,0 +1,18 @@
+{
+  "name": "shopping-assistant",
+  "version": "1.0.0",
+  "description": "- **[About](#about)**\r - **[Features](#features)**\r - **[Instructions for running locally](#Instructions-for-running-locally)**\r    - **[Initial steps](#initial-steps)**\r    - **[Method I (Using docker) [Recommended]](#method-i-using-docker-recommended)**\r    - **[Method II (Without docker)](#method-ii-without-docker)**\r - **[Demo video](#demo-video)**\r - **[Screenshots](#screenshots)**\r - **[Tech Stack](#tech-stack)**   \r - **[File Structure](#file-structure)**\r ## About\r Shopping Assistant is a chatbot, which can assist consumers in deciding the right product and bridge the gap between online and offline shopping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.5",
+    "bootstrap": "^5.3.3",
+    "google-translate": "^2.2.0",
+    "react-bootstrap": "^2.10.4",
+    "react-router-dom": "^6.26.1"
+  }
+}
